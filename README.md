@@ -2,16 +2,10 @@
 
 A Pi extension that appends a system prompt only when its exact model is active.
 
-## Install
+## Install globally
 
 ```bash
-pi install /path/to/pi-model-system-prompts
-```
-
-For a one-off local run:
-
-```bash
-pi -e /path/to/pi-model-system-prompts/index.ts
+pi install git:github.com/ihsanbudiman/pi-model-system-prompts
 ```
 
 ## Configure
